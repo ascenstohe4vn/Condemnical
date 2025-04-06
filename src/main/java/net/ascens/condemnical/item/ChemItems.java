@@ -12,6 +12,7 @@ public class ChemItems {
     //Vials
     public static final DeferredItem<Item> EMPTY_VIAL = ITEMS.register("empty_vial", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HYDROGEN_VIAL = ITEMS.register("hydrogen_gas_vial", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HELIUM_VIAL = ITEMS.register("helium_gas_vial", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
